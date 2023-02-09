@@ -1,0 +1,69 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "fuel": "Gasoline",
+      "seats": 5,
+      "picture": "https://example.com/camry.jpg",
+      "price": 50,
+      "count": 9
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Accord",
+      "year": 2021,
+      "fuel": "Gasoline",
+      "seats": 5,
+      "picture": "https://example.com/accord.jpg",
+      "price": 55,
+      "count": "7"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "555-555-5555"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Doe",
+      "email": "janedoe@example.com",
+      "phone": "555-555-5556"
+    },
+    {
+      "id": 3,
+      "fullName": "Jane Doe",
+      "email": "janedoe@example.com",
+      "phone": "555-555-5556"
+    }
+  ],
+  "rentals": [
+    {
+      "startDate": "2023-02-09",
+      "endDate": "2023-02-12",
+      "customer": 1,
+      "vehicle": 1,
+      "id": 1
+    },
+    {
+      "startDate": "2023-02-07",
+      "endDate": "2023-02-11",
+      "customer": 2,
+      "vehicle": 2,
+      "id": 2
+    },
+    {
+      "startDate": "2023-02-10",
+      "endDate": "2023-02-04",
+      "customer": "2",
+      "vehicle": "1",
+      "id": 3
+    }
+  ]
+}
